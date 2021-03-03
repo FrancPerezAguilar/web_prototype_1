@@ -1,1 +1,24 @@
-{}
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "scss": "^0.2.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "web_prototipe_1",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancPerezAguilar/web_prototipe_1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancPerezAguilar/web_prototipe_1/issues"
+  },
+  "homepage": "https://github.com/FrancPerezAguilar/web_prototipe_1#readme"
+}
