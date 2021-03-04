@@ -14,27 +14,45 @@ body {
 #banner {
   height: 100vh;
   width: auto;
+  background-color: #dad8d9;
+  /*
   background-image: url("assets/1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  */
+}
+#banner nav {
+  position: absolute;
+  text-align: right;
+  width: 100vw;
+  background-color: white;
+}
+
+#banner nav ul {
+  list-style: none;
+  display: inline-flex;
+}
+
+#banner nav ul li {
+  margin: 20px 40px 0 0;
+}
+#banner nav ul li a {
+  text-decoration: none;
+  color: gray;
 }
 
 #bannerBox {
   padding: 0%;
-  height: 45%;
-  width: 50%;
-  background-color: rgb(241, 148, 255);
-  position: relative;
-  top: 27.5%;
-  left: 25%;
-  align-items: center;
+  position: absolute;
+  top: 40%;
+  left: 60%;
 }
 
 #banner h1 {
   position: relative;
   font-size: 5em;
-  color: white;
+  color: black;
   text-align: center;
   top: 25%;
 }
@@ -43,16 +61,23 @@ body {
   margin: 0;
   position: relative;
   top: 35%;
-  left: 0;
   border-radius: 0;
   font-size: 20px;
-  margin: 0 15px;
   width: 150px;
   background-color: black;
   border: none;
 }
 
-#aboutus {
+#banner img {
   height: 100vh;
   width: auto;
+}
+
+#aboutus {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("assets/1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
